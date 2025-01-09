@@ -14,6 +14,7 @@ First make sure to install all dependencies listed in the `environment.yaml`. Th
  * To train `python tain.py`
  * To evaluate `python eval.py --n /path_to_.pkl_files`
 
+## Results
 
 ### Value profile
 <img src="assert/bal_plt.png" width="500"/>
@@ -23,9 +24,15 @@ First make sure to install all dependencies listed in the `environment.yaml`. Th
 
 |  psi = 90deg                         |  psi = 180deg                      |
 |:------------------------------------------:|:------------------------------------------------:|
-| ![1](assert/1.png) | ![2](assert/2.png) |
+| <img src="assert/1.png" width="300"/> | <img src="assert/2.png" width="300"/> |
 
 
 |  psi = -180deg                         |  psi = 220deg                      |
 |:------------------------------------------:|:------------------------------------------------:|
-| ![3](assert/3.png) | ![4](assert/4.png) |
+| <img src="assert/3.png" width="300"/> | <img src="assert/4.png" width="300"/> |
+
+
+
+## For more details
+
+Please visit [Link](https://docs.google.com/presentation/d/e/2PACX-1vQWc_dwcof_kpDOQ1M18drhdR3xrHWK9JENf_uNw397PkokbzyM3R6ledW2v6dtVbm3yYUAX8nYwaUd/pub?start=true&loop=true&delayms=3000&slide=id.p1) for more project details .
