@@ -5,10 +5,6 @@ This project simulates an air combat scenario involving Unmanned Aerial Vehicles
 
 
 
-|  Advantage case                         |  Balanced case                      |  Disadvantage case                   |
-|:------------------------------------------:|:------------------------------------------------:|:------------------------------------------:|
-| ![Advantage](assert/adv.gif) | ![Balanced](assert/bal.gif) | ![Disadvantage](assert/dis.gif) |
-
 
 
 ## How to run
@@ -19,4 +15,17 @@ First make sure to install all dependencies listed in the `environment.yaml`. Th
  * To evaluate `python eval.py --n /path_to_.pkl_files`
 
 
-## Results 
+### Value profile
+<img src="assert/bal_plt.png" width="500"/>
+
+### Value profile
+<img src="assert/V.png" width="500"/>
+
+|  psi = 90deg                         |  psi = 180deg                      |
+|:------------------------------------------:|:------------------------------------------------:|
+| ![1](assert/1.png) | ![2](assert/2.png) |
+
+
+|  psi = -180deg                         |  psi = 220deg                      |
+|:------------------------------------------:|:------------------------------------------------:|
+| ![3](assert/3.png) | ![4](assert/4.png) |
